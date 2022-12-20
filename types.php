@@ -35,10 +35,16 @@ echo "<br><br>";
 $array = array("orange", "yellow", "red");
 var_dump($array);
 
+echo "<br><br>";
+
 #Object
 
 $object = (object)["city1" => "Barcelona", "city2" => "Madrid", "city3" => "Sevilla"];
-var_dump($object);
+    echo "I live in: $object->city1 <br>";
+    var_dump($object);
+
+    echo "<br><br>";
+
 
 
 
