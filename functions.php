@@ -10,7 +10,7 @@ echo "<br>";
 
 # MULTIPLY TWO NUMBER
 
-function multiplynumbers(int $x, int $y){
+function multiplynumbers($x, $y){
     return $x * $y;
 }
 
@@ -19,7 +19,7 @@ echo "<br>";
 
 # DIVISION TWO NUMBER
 
-function divisionTwoNumbers(int $x, int $y){
+function divisionTwoNumbers($x, $y){
     return $x / $y;
 }
 
@@ -28,9 +28,19 @@ echo "The result of the division of 10 and 2 is: ". divisionTwoNumbers(10,2);
 
 echo "<br>";
 
-function TwoNumbers(10 * 8){
-    return TwoNumbers();
+function TwoNumbers($x, $y, $operator){
+    if($operator == "add"){
+        return $x + $y;
+    } else if($operator == "multiply"){
+        return $x * $y;
+    }   
 }
+
+echo TwoNumbers(2, 5, "add");
+echo "<br>";
+echo TwoNumbers(2, 5, "multiply");
+echo "<br>";
+
 
 
 ?>

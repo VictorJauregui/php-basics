@@ -2,6 +2,7 @@
 #absolute value
 $a = 10;
 $b = 5.8;
+
 var_dump(abs($a - $b));
 var_dump(abs($a - 5));
 echo "<br><br>";
