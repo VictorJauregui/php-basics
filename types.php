@@ -45,6 +45,7 @@ $object = (object)["city1" => "Barcelona", "city2" => "Madrid", "city3" => "Sevi
 
     echo "<br><br>";
 
+#Null
 
 
 

@@ -14,7 +14,7 @@ echo "<br><br>";
 #replace
 
 $city = "Estoy en Madrid";
-print_r(str_replace("Madrid", "Paris", $city));
+print_r(str_replace("Madrid", "Barcelona", $city));
 
 echo "<br><br>";
 
