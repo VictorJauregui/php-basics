@@ -47,6 +47,9 @@ $object = (object)["city1" => "Barcelona", "city2" => "Madrid", "city3" => "Sevi
 
 #Null
 
+$text = 'Hello darkness my old friend';
+$text = null;
+
 
 
 ?>
